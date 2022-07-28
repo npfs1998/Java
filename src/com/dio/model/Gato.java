@@ -45,6 +45,7 @@ public class Gato {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Gato gato = (Gato) o;
+
         return idade == gato.idade && Objects.equals(nome, gato.nome) && Objects.equals(cor, gato.cor);
     }
 
